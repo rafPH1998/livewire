@@ -15,9 +15,11 @@
             Salvar
         </button>
     </div>
+
     <ul class="list-disc list-inside text-gray-800 p-2">
         @foreach($names as $name)
             <li>{{$name}}</li>
         @endforeach
     </ul>
+
 </div>
